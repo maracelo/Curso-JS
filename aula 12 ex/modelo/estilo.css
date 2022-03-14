@@ -1,0 +1,20 @@
+body{
+    background: rgb(126, 67, 67);
+    font: normal 15pt Arial;
+}
+header{
+text-align: center;
+color:white;
+}
+section{
+background: white;
+border-radius: 10px;
+width: 500px;
+height: 200px;
+margin: auto;
+padding: 15px;
+}
+footer{
+    text-align: center;
+    color:orange;
+}

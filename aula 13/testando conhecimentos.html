@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Conhecimentos</title>
+    <style>
+    body{
+    background:rgb(219, 19, 19);
+    }
+    div#horário{
+        font: normal 20pt Arial;
+        color: rgb(0, 0, 0);
+    }
+    </style>
+</head>
+<body>
+    <div id="horário"></div>
+    <script>
+        /*var agora=new Date()
+        var h=agora.getHour()*/
+        var h=18
+        var res=document.querySelector('div#horário')
+        res.innerText=`São exatamente ${h}hrs`
+        
+        var corFundo=document.body
+        if(h<6){corFundo.style.background='rgb(209, 176, 114)'}
+        else if(h<12){corFundo.style.background='blue'} 
+        else if(h<18){corFundo.style.background='rgb(192, 155, 85)'}
+        else if(h<24){corFundo.style.background='black'}
+        if(h<24){res.style.color='white'} else{'[Error]'}
+        
+        
+        
+        </script>
+</body>
+</html>

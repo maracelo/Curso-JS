@@ -1,0 +1,9 @@
+div#area {
+    font: normal 15pt Arial;
+    background: rgb(114, 209, 19);
+    color: rgba(255, 255, 255, 0.959);
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;}
+    /*pesquisar no google 'JavaScript DOM events lists'*/

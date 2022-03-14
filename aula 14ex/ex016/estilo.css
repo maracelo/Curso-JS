@@ -1,0 +1,27 @@
+body{
+    background: rgb(240, 76, 76);
+    font: normal 15pt Arial;
+}
+header{
+text-align: center;
+color:white;
+}
+section{
+background: white;
+border-radius: 10px;
+width: 500px;
+height: 250px;
+margin: auto;
+padding: 15px;
+}
+div{
+    margin-top: 20px;
+}
+#but{
+    cursor: pointer;
+}
+footer{
+    margin: 10px;
+    text-align: center;
+    color:white;
+}
